@@ -10,5 +10,7 @@ def batch_badge_creator(attendees)
   end
 end
 
-
+def assign_rooms(attendees)
+  attendees.map do |name|
+    "Hello, #{name}! You'll be assigned to room #{number}"
 
